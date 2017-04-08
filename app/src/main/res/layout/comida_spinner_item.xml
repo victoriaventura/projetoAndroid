@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Restaurante"
+    android:id="@+id/tvRestaurante"
+    android:layout_marginLeft="8dp"
+    android:layout_centerVertical="true"
+/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/tvRestaurante"
+    android:layout_marginLeft="8dp"
+    android:id="@+id/text"
+    android:layout_centerVertical="true"
+    android:text="--"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nome"
+    android:id="@+id/tvNome"
+    android:layout_toRightOf="@+id/text"
+    android:layout_marginLeft="8dp"
+    android:layout_centerVertical="true"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Preco"
+    android:id="@+id/tvPreco"
+    android:layout_toLeftOf="@+id/btnExcluir"
+    android:layout_marginLeft="8dp"
+    android:layout_centerVertical="true"
+    />
+
+
+<Button
+    android:layout_width="55dp"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@android:drawable/ic_delete"
+    android:id="@+id/btnExcluir"
+    android:layout_alignParentRight="true"
+    />
+
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="#ffffff"/>
+</RelativeLayout>
